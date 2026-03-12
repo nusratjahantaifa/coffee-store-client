@@ -7,7 +7,7 @@ const Users = () => {
     const [users, setUsers] = useState(loadedUsers);
     const handleDelete = id => {
 //make sure users confirmed delete
-fetch(`http://localhost:5000/users/${id}` , {
+fetch(`http://localhost:5000/user/${id}` , {
     method:"DELETE"
   
   })
