@@ -19,7 +19,7 @@ console.log(result.user);
 const createdAt = result.user?.metadata?.creationTime;
 
 const user = {email, createdAt: createdAt};
-fetch('http://localhost:5000/user',
+fetch('https://coffee-store-espresso-rcgdw5jpn-nusratjahantaifas-projects.vercel.app/user',
   {
     method: 'POST',
     headers: {

@@ -21,7 +21,7 @@ const {_id, name,quantity,supplier,taste,category,details,photo } = coffee;
   const updatedCoffee = {name,quantity,supplier,taste,category,details,photo}
   console.log(updatedCoffee);
   //send data to the server
-  fetch(`http://localhost:5000/coffee/${_id}`,{
+  fetch(`https://coffee-store-espresso-rcgdw5jpn-nusratjahantaifas-projects.vercel.app/coffee/${_id}`,{
     method: 'PUT',
     headers: {
       'content-type' : 'application/json'

@@ -7,7 +7,7 @@ const Users = () => {
     const [users, setUsers] = useState(loadedUsers);
     const handleDelete = id => {
 //make sure users confirmed delete
-fetch(`http://localhost:5000/user/${id}` , {
+fetch(`https://coffee-store-espresso-rcgdw5jpn-nusratjahantaifas-projects.vercel.app/user/${id}` , {
     method:"DELETE"
   
   })

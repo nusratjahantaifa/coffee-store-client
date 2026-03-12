@@ -18,7 +18,7 @@ Swal.fire({
    
     //-----------
     // console.log('delete confirmed')//now no need this line-------
-    fetch(`http://localhost:5000/coffee/${_id}`,{
+    fetch(`https://coffee-store-espresso-rcgdw5jpn-nusratjahantaifas-projects.vercel.app/coffee/${_id}`,{
       method: 'DELETE'
     })
     .then(res => res.json())
